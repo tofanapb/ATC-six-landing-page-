@@ -1,0 +1,248 @@
+/*Large screen*/
+
+@media only screen and (min-width: 1500px) {}
+
+@media only screen and (max-width: 1400px) {
+   
+}
+@media only screen and (max-width: 1199px) {
+    .tab_content_single_item_right {
+        top: 10px;
+    }
+    .events_single_item h4, .event_text h4, .tab_content_text h4 {
+        font-size: 16px;
+    }
+    .slider_content_item h2 {
+        font-size: 50px;
+    }
+    .servics_slider_bg {
+        min-height: 220px;
+    }
+    .tab_content_single_item_right .tab_content_item h4,
+     .footer_menu h4, .footer_subscribe_form p {
+        font-size: 14px;
+    }
+    .video_tab_content_left, .cta_content_item h4 {
+        margin-left: 30px;
+    }
+    .footer_subscribe_form p {
+        width: calc(48% - 20px);
+    }
+    .events_single_item a.event_post {
+        font-size: 16px;
+    }
+}
+
+/* Tablet Layout waid */
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+	.servics_slider_inner i.fas.fa-angle-left, .video_slider_inner i.fas.fa-angle-left {
+        left: -20px;
+    }
+    .servics_slider_inner i.fas.fa-angle-right, .video_slider_inner i.fas.fa-angle-right {
+        right: -20px;
+    }
+    .video_tab_content_left, .cta_content_item h4 {
+        margin-left: 10px;
+    }
+    .video_tab_content_left p {
+        font-size: 18px;
+    }
+    .video_tab_content_item p,
+     .footer_menu ul li a, .footer_contact ul li, 
+      .footer_logo_area p {
+        font-size: 12px;
+    }
+    .cta_content_item h4 {
+        font-size: 22px;
+    }
+    .cta_content_item h5 {
+        font-size: 14px;
+    }
+    a.cta_btn {
+        margin-top: 16px;
+    }
+
+}
+
+/* tablet */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.events_single_item a.event_post,
+     .event_text h4, .tab_content_text h4, .event_text a.event_tag, .event_text strong, 
+     .video_slider_content p, .cta_content_item h5, .event_text a.event_post {
+        font-size: 12px;
+    }
+    .events_single_item a.event_post, .tab_menu_area a.nav-link,
+     .tab_content_item h4, .video_tab_content_left p,
+     .cta_content_item h4 {
+        font-size: 14px;
+    }
+    .events_single_item a.event_tag {
+        font-size: 10px;
+    }
+    .tab_content_single_item_right {
+        width: calc(55% - 25px);
+    }
+    .tab_content_img {
+        width: calc(27% - -5px);
+    }
+    .video_tab_content_item p, .footer_logo_area p, .footer_menu ul li a,
+    .footer_menu h4, .footer_contact ul li, .footer_contact ul li strong,
+     .footer_contact ul li span {
+        font-size: 8px;
+    }
+    a.cta_btn {
+        margin-top: 15px;
+    }
+    .footer_subscribe_form p, .footer_form {
+        width: 100%;
+        margin-left: 0;
+    }
+    .footer_contact ul li:nth-child(2) {
+        padding-left: 48px;
+    }
+    .footer_contact ul li:nth-child(3) strong {
+        padding-left: 15px;
+    }
+    .footer_copyright_area p {
+        font-size: 10px;
+    }
+    .events_area {
+        margin-top: -157px;
+    }
+    .footer_menu h4, .footer_subscribe_form p, .footer_menu ul li a {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .menu_area, .menu_btn_area {
+        display: none;
+    }
+    .logo {
+        text-align: center !important;
+    }
+    .slider_content_item h2 {
+        font-size: 40px;
+    }
+    .events_inner_item_left .events_single_item a i {
+        width: 40px;
+        height: 40px;
+        padding: 17px 15px;
+        margin: 8px 10px 0 0;
+    }
+    
+    .event_wrapper_right .events_single_item a {
+        margin-top: 0px;
+    }
+    .event_wrapper_right .events_single_item a.event_tag {
+        margin-bottom: 5px;
+    }
+    .events_content_inner {
+        padding: 15px;
+    }
+    .event_img {
+        flex-basis: 35%;
+    }
+    a.play_btn_right, a.play_btn_left {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+    .video_slider_item {
+        min-height: 230px;
+    }
+    
+}
+
+/* Mobile Layout */
+@media only screen and (max-width: 768px) {
+    .events_area {
+        margin-top: -136px;
+    }
+    .event_img {
+        flex-basis: 20%;
+    }
+    .events_inner_item, .tab_content_inner, .video_tab_content_left,
+    .cta_content_item h4 {
+        margin-bottom: 30px;
+    }
+    .event_wrapper_right .row .col-md-6:nth-child(2) {
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+    .event_wrapper_right .events_single_item a {
+        margin-top: 5px;
+        display: inherit;
+    }
+    .event_wrapper_right .events_single_item p {
+        margin-bottom: 10px;
+    }
+    .play_btn_item, .cta_content_item, .footer_contact {
+        text-align: center;
+    }
+    
+    .footer_form, .footer_subscribe_form p {
+        width: 100%;
+        display: inline;
+    }
+    .footer_subscribe_form, .footer_copyright_area, .footer_copyright_area p {
+        justify-content: center;
+        text-align: center;
+    }
+    .footer_form input[type="submit"] {
+        margin-top: 0;
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+    .footer_copyright_area img {
+        margin: 10px 0;
+    }
+    .servics_slider_inner i.fas.fa-angle-left, .video_slider_inner i.fas.fa-angle-left {
+        left: 0px;
+    }
+    .servics_slider_inner i.fas.fa-angle-right, .video_slider_inner i.fas.fa-angle-right {
+        right: 0px;
+    }
+}
+
+/* small scren*/
+@media only screen and (max-width: 575px) {
+    .video_tab_content_item, .tab_menu_area, .tab_menu_area .tabs_heading {
+        text-align: center;
+    }
+    .cta_content_item h4 {
+        font-size: 20px;
+    }
+    .cta_content_item h5, .tab_content_item h4 {
+        font-size: 15px;
+    }
+    .tab_content_single_item_right {
+        width: 100%;
+        position: inherit;
+        margin-top: 30px;
+    }
+    .tab_content_single_item_left {
+        width: 100%;
+    }
+    .tab_menu_area .tabs_heading {
+        float: none;
+    }
+    a.slider_btn {
+        margin-top: 10px;
+    }
+    .slider_content_item h2 {
+        font-size: 20px;
+    }
+    .event_img {
+        flex-basis: 30%;
+    }
+    .video_slider_text h4 {
+        font-size: 8px;
+    }
+    .events_area {
+        margin-top: -136px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    
+}
